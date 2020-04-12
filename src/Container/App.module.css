@@ -1,0 +1,31 @@
+.App {
+  text-align: center;
+  color: rgb(3, 30, 37);
+}
+.app .position {
+  text-align: center;
+}
+.classFlex {
+  margin-top: 218px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 85%;
+  background-color: rgb(213, 221, 230);
+  border-radius: 3px;
+  margin-bottom: 15px;
+  border: none;
+  box-shadow: 0 3px 3px 0 rgb(77, 65, 49);
+}
+
+.classContainer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.position {
+  position: fixed;
+  height: 198px;
+  width: 100%;
+  background-color: rgb(190, 182, 173);
+}

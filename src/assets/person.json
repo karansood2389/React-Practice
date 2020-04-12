@@ -1,0 +1,58 @@
+{
+  "data": [
+    {
+      "id": "0",
+      "name": "Astha Gupta",
+      "age": 29,
+      "description": "Gender is female"
+    },
+    {
+      "id": "1",
+      "name": "Sanchit Gupta",
+      "age": 29,
+      "description": "Gender is male"
+    },
+    {
+      "id": "2",
+      "name": "Ayush Tiwari",
+      "age": 29,
+      "description": "Gender is male"
+    },
+    {
+      "id": "3",
+      "name": "Karan Sood",
+      "age": 31,
+      "description": "Gender is male"
+    },
+    {
+      "id": "4",
+      "name": "Abhishek Tiwari",
+      "age": 30,
+      "description": "Gender is male"
+    },
+    {
+      "id": "5",
+      "name": "Siddharth Singh",
+      "age": 29,
+      "description": "Gender is male"
+    },
+    {
+      "id": "6",
+      "name": "Vijay Sharma",
+      "age": 37,
+      "description": "Gender is male"
+    },
+    {
+      "id": "7",
+      "name": "Gaurav Sharma",
+      "age": 38,
+      "description": "Gender is male"
+    },
+    {
+      "id": "8",
+      "name": "Sriram Kumar",
+      "age": 32,
+      "description": "Gender is male"
+    }
+  ]
+}
