@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 
 import BackDrop from "components/UI/Backdrop/Backdrop";
 import Auxiliary from "hoc/Auxiliary/Auxiliary";
@@ -6,9 +6,6 @@ import Auxiliary from "hoc/Auxiliary/Auxiliary";
 import classes from "components/UI/Modal/Modal.module.css";
 
 const Modal = (props) => {
-  useEffect(() => {
-    console.log("Karan is great");
-  });
 
   return (
     <Auxiliary>
@@ -26,6 +23,8 @@ const Modal = (props) => {
   );
 };
 
-export default React.memo(Modal, (prevProps, nextProps) => {
-  return prevProps.show === nextProps.show;
-});
+const areEqual = (prevProps, nextProps) => {
+  return prevProps.show === nextProps.show && prevProps.children === nextProps.children
+}
+
+export default React.memo(Modal, areEqual);

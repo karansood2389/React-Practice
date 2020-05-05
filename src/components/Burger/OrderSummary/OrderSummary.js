@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 
 import Auxiliary from "hoc/Auxiliary/Auxiliary";
 import Button from "components/UI/Button/Button";
@@ -6,10 +6,6 @@ import Button from "components/UI/Button/Button";
 import CONSTANTS from "constant/Constant";
 
 const OrderSummary = (props) => {
-
-  useEffect (() => {
-    console.log('[OrderSummary.js] UseEffect called');
-  })
 
   const ingredientSummary = [];
   for (const igKey in props.ingredients) {
