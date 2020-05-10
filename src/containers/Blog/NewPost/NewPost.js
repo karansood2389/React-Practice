@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import axios from "axios";
 
 import "./NewPost.css";
+import { Redirect } from "react-router";
 
 class NewPost extends Component {
   state = {
@@ -9,6 +10,7 @@ class NewPost extends Component {
     content: "",
     author: "Max",
     showComp: true,
+    submitted: false
   };
 
   postDataHandler = () => {
@@ -31,13 +33,19 @@ class NewPost extends Component {
             author: "Max",
             showComp: true
           });
+          this.props.history.push('/posts');
         }
       });
   };
 
   render() {
+    let redirect = null;
+    if(this.state.submitted){
+      redirect = <Redirect to='/posts'/>
+    }
     let compData = (
         <div className="NewPost">
+          {redirect}
           <h1>Add a Post</h1>
           <label>Title</label>
           <input
