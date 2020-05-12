@@ -1,0 +1,41 @@
+.App ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.App li {
+    display: inline-block;
+    margin: 20px;
+}
+
+.App a {
+    text-decoration: none;
+    color: white;;
+}
+
+.App a:hover,
+.App a:active,
+.App a.active{
+    color: orange;
+}
+
+.App header {
+    background-color: rgb(137, 137, 235);
+}
+
+.App {
+    background-color: rgb(172, 207, 228);
+    height: 560px;
+    overflow: hidden;
+}
+
+.App .Route {
+    width:70%;
+    margin-left: 15%;
+}
+::-webkit-scrollbar {
+    width: 1px;
+  }
