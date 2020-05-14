@@ -1,0 +1,7 @@
+.CharsCompnent {
+  border: 1px solid #eee;
+  margin: 10px;
+  padding: 5px;
+  box-shadow: 0 2px 3px rgb(247, 143, 143);
+  background-color: #ccc;
+}

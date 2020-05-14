@@ -1,0 +1,14 @@
+.InputComponent {
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid #eee;
+  box-shadow: 0 2px 3px #ccc;
+  width: 30%;
+  background-color: #ccc;
+}
+
+.InputComponent input {
+  margin-left: 5px;
+  border-radius: 1px;
+  border: 1px solid rgb(114, 113, 113);
+}

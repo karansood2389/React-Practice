@@ -1,0 +1,33 @@
+.ValidationComponent {
+  margin-top: 3%;
+  margin-left: 35%;
+  padding: 10px;
+  border: 1px solid #eee;
+  box-shadow: 0 2px 2px rgb(47, 231, 93);
+  width: 30%;
+  color: rgb(15, 61, 26);
+  background-color: #ccc;
+}
+
+.keyCheck {
+    animation: enable 1s infinite;
+}
+
+.shortColor {
+  color: rgb(221, 64, 64);
+  box-shadow: 0 2px 2px rgb(221, 64, 64);
+}
+
+@keyframes enable {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.2);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
